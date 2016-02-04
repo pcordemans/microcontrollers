@@ -1,0 +1,9 @@
+*.exe
+*.bin
+*.elf
+*.o
+*.sublime-workspace
+!cmsis_nvic.o
+!retarget.o
+!startup_LPC17xx.o
+!system_LPC17xx.o
