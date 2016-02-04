@@ -2,9 +2,9 @@
 # see http://mbed.org/handbook/Exporting-to-GCC-ARM-Embedded
 
 GCC_BIN =
-PROJECT = low_lvl_blinky
+PROJECT = timer_interrupt
 OBJECTS = ./main.o
-SYS_OBJECTS = ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/cmsis_nvic.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/system_LPC17xx.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/retarget.o
+SYS_OBJECTS = ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/cmsis_nvic.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/system_LPC17xx.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o ../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM/retarget.o 
 INCLUDE_PATHS = -I. -I../../mbed -I../../mbed/TARGET_LPC1768 -I../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM
 LIBRARY_PATHS = -L../../mbed/TARGET_LPC1768/TOOLCHAIN_GCC_ARM
 LIBRARIES = -lmbed
