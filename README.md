@@ -1,9 +1,9 @@
-# microcontrollers
-This repository contains code examples for the course Microprocessors and Microcontrollers. Exercises are based on the mbed development platform (http://mbed.org). The mbed consists of the LPC1768, an ARM Cortex M3 microcontroller.
+# Microprocessors and Microcontrollers
+This repository contains code examples for the course [Microprocessors and Microcontrollers](https://onderwijsaanbod.kuleuven.be/2015/syllabi/n/B3120NN.htm#activetab=doelstellingen_idm6094512). Exercises are based on the mbed development platform (http://mbed.org). The mbed consists of the LPC1768, an ARM Cortex M3 microcontroller.
 
 Chapters
 
-0. Introduction: setup
+*Introduction: setup*
 1. Fundamentals: microcontroller architecture
 2. Digital I/O
 3. Timers & Interrupts
