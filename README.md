@@ -4,6 +4,7 @@ This repository contains code examples for the course [Microprocessors and Micro
 Chapters
 
 *Introduction: setup*
+
 1. Fundamentals: microcontroller architecture
 2. Digital I/O
 3. Timers & Interrupts
