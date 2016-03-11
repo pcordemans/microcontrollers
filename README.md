@@ -8,9 +8,9 @@ Chapters
 1. Fundamentals: microcontroller architecture
 2. Digital I/O
 3. Timers & Interrupts
-4. ARM Assembler
-5. Real-Time Operating Systems: mbed RTOS
-6. Serial Communication: UART, SPI, I²C, One-Wire
-7. Analog Interfacing
+4. Serial Communication: UART, SPI, I²C, One-Wire
+5. Analog Interfacing
+6. ARM Assembler
+7. Real-Time Operating Systems: mbed RTOS
 8. Embedded Software Architecture
 9. Testing Embedded Software
