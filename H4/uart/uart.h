@@ -1,6 +1,7 @@
 #ifndef UART_H
 #define UART_H
 
+namespace microcontrollers{
 /**
 * UART class for communicating with a UART periperhal on the LPC1768
 */
@@ -27,5 +28,5 @@ public:
     */
   char getc();
 };
-
+}
 #endif
