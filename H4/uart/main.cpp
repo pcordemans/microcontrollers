@@ -1,5 +1,12 @@
 #include "uart.h"
 
 int main(){
-  return 0;
+  UART pc;
+
+  while(true) {
+    char c = pc.getc();
+    if (c == 'z') c = 'a';
+    else c++;
+    pc.putc(c);
+  }
 }
