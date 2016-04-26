@@ -9,7 +9,7 @@ int main() {
 
 
     while (1) {
-			Timer::wait(1000000);
+			timer::wait(1000000);
 			LPC_GPIO1->FIOPIN = ~(LPC_GPIO1->FIOPIN); //toggle LED 1
 		}
 }

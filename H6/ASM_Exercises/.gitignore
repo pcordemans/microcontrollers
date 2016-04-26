@@ -1,0 +1,11 @@
+*
+!.gitignore
+!ascii_bcd.s
+!bcd_ascii.s
+!main.c
+!cipher.s
+!ccipher.s
+!bit_reverse.s
+!fibonacci.s
+!char_reverse.s
+!word_reverse.s

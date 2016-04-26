@@ -4,12 +4,13 @@
 #include "stdint.h"
 #include "LPC17xx.h"
 
-class Timer{
-public:
-  static void wait(uint32_t microseconds);
-private:
-  static bool initialised;
-  static void init();
+namespace timer{
+/**
+  * Waits for a given number of microseconds (blocking)
+  * @param microseconds to wait
+  */
+ void wait(uint32_t microseconds);
+
 };
 
 #endif
