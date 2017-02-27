@@ -31,7 +31,7 @@ void blink() {
 
 int main() {
 	init();
-	while (1) {
+	while (true) {
 		blink();
 	}
 }
