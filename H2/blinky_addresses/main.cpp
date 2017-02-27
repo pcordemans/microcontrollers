@@ -28,7 +28,7 @@ void blink() {
 	auto clr = (volatile uint32_t *) (0x2009C03C);
 	*clr |= (1 << 18); //select p1.18 and write 0 to turn it off
 	approx_wait(500);
-	
+
 	auto set = (volatile uint32_t *) (0x2009C038);
 	*set |= (1 << 18); //select p1.18 and write 1 to turn it on
 	approx_wait(500);
@@ -36,7 +36,7 @@ void blink() {
 
 int main() {
 	init();
-	while (1) {
+	while (true) {
 		blink();
 	}
 }
