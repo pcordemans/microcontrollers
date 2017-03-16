@@ -8,10 +8,9 @@
 class GPout {
 public:
 	/**
-	  * Select port, pin and direction
+	  * Select port and pin 
 		* @param port 0 - 4
 		* @param pin 0 - 31
-		* @param direction INPUT or OUTPUT
 	  */
 	GPout(uint8_t port, uint8_t pin);
 	/**
@@ -37,9 +36,11 @@ private:
 	uint8_t port;
 	uint8_t pin;
 
-	volatile uint32_t* port_base_address;
+	volatile uint32_t* port_address;
+	volatile uint32_t* pinsel_address;
 
-	static volatile uint32_t* base_address;
+	static volatile uint32_t* pinsel_base_address;
+	static volatile uint32_t* port_base_address;
 	static const uint8_t mask_offset = 0x4;
 	static const uint8_t clr_offset = 0x7;
 	static const uint8_t set_offset = 0x6;
