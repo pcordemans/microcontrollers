@@ -40,6 +40,8 @@ public:
 private:
   uint8_t pwm_pin;
   uint32_t pwm_frequency;
+  static const uint32_t pclk = 24000000;
+  volatile uint32_t* match;
 };
 
 #endif

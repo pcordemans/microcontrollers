@@ -9,7 +9,7 @@ void approx_wait(uint32_t milliseconds) {
 int main(){
   PWM pwm(6, 4000, 25);
   pwm.start();
-  //pwm.setDutyCycle(50);
+  pwm.setDutyCycle(50);
   //uint8_t dutyCycle = 0;
 
   while(true){
