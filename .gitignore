@@ -2,7 +2,9 @@
 *.bin
 *.elf
 *.o
-*.sublime-workspace
+*.d
+*.hex
+*.map
 !cmsis_nvic.o
 !retarget.o
 !startup_LPC17xx.o
