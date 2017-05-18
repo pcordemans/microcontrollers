@@ -1,6 +1,4 @@
-
-extern int unity_run_tests();
-
+#include "Test_Runner.h"
 
 int main() {
 

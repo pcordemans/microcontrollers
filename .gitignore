@@ -9,3 +9,4 @@
 !retarget.o
 !startup_LPC17xx.o
 !system_LPC17xx.o
+!board.o
